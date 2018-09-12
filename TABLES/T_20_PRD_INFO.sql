@@ -1,0 +1,38 @@
+--------------------------------------------------------
+--  DDL for Table T_20_PRD_INFO
+--------------------------------------------------------
+
+  CREATE TABLE "T_20_PRD_INFO" 
+   (	"R_K" NUMBER, 
+	"PRD_CODE" VARCHAR2(128), 
+	"PRD_DESC" VARCHAR2(512), 
+	"MIN_SI" NUMBER, 
+	"MAX_SI" NUMBER, 
+	"PRD_RT" NUMBER, 
+	"CRT_BY" VARCHAR2(52), 
+	"CRT_DT" TIMESTAMP (6), 
+	"UPD_BY" VARCHAR2(52), 
+	"UPD_DT" TIMESTAMP (6), 
+	"IUS_YN" NUMBER, 
+	"MIN_AGE" NUMBER, 
+	"MAX_AGE" NUMBER, 
+	"PRM_PYMT" NUMBER, 
+	"MED_EXM" NUMBER, 
+	"FEE_AMT" NUMBER, 
+	"SI_DIV" NUMBER, 
+	"PRD_FML" VARCHAR2(512), 
+	"PRM_FML" VARCHAR2(4000), 
+	"PRD_TP" NUMBER, 
+	"PRM_TP" NUMBER, 
+	"CLM_TP" NUMBER, 
+	"SAV_TP" NUMBER, 
+	"PRM_WAH" NUMBER, 
+	"PRM_TAB" NUMBER, 
+	"MIN_PRM" NUMBER, 
+	"MAX_PRM" NUMBER, 
+	"DTH_BNF" NUMBER, 
+	"PRM_PART" NUMBER, 
+	"GRP_YN" NUMBER, 
+	"MIN_RT" NUMBER, 
+	"MAX_RT" NUMBER
+   ) ;

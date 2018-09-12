@@ -1,0 +1,43 @@
+--------------------------------------------------------
+--  DDL for View V_20_UW_POL
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "V_20_UW_POL" ("R_K", "POL_NO", "PRD_R_K", "PRD_TERM", "SI_AMT", "MNS_PYMT", "INSR_R_K", "PYMT_FEQ", "CUS_R_K", "PRM_AMT", "ST_DT", "EN_DT", "ANL_INC", "INC_PR", "ACTL_DBFT", "CRT_BY", "CRT_DT", "UPD_BY", "UPD_DT", "POL_STA", "BUS_DT", "APR_BY", "APR_DT", "APR_STA", "SYS_DTT", "PRM_TAB", "PRM_WAH", "PRM_PART", "LOC_R_K", "GRP_YN", "PRT_BY", "PRT_V", "PRT_RT", "END_CNT") AS 
+  SELECT
+    r_k,
+    pol_no,
+    prd_r_k,
+    prd_term,
+    si_amt,
+    mns_pymt,
+    insr_r_k,
+    pymt_feq,
+    cus_r_k,
+    prm_amt,
+    st_dt,
+    en_dt,
+    anl_inc,
+    inc_pr,
+    actl_dbft,
+    crt_by,
+    crt_dt,
+    upd_by,
+    upd_dt,
+    pol_sta,
+    bus_dt,
+    apr_by,
+    apr_dt,
+    apr_sta,
+    sys_dtt,
+    PRM_TAB,
+    PRM_WAH,
+    PRM_PART,
+    LOC_R_K,
+    GRP_YN,
+    PRT_BY,
+    PRT_V,
+    PRT_RT,
+    END_CNT
+FROM
+    t_20_uw_pol
+;

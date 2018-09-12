@@ -1,0 +1,15 @@
+--------------------------------------------------------
+--  DDL for Table HM_USER_PREFERENCES
+--------------------------------------------------------
+
+  CREATE TABLE "HM_USER_PREFERENCES" 
+   (	"ID" NUMBER, 
+	"ROW_VERSION_NUMBER" NUMBER, 
+	"USER_ID" NUMBER, 
+	"PREFERENCE_NAME" VARCHAR2(100), 
+	"PREFERENCE_VALUE" VARCHAR2(4000), 
+	"CREATED" TIMESTAMP (6) WITH LOCAL TIME ZONE, 
+	"CREATED_BY" VARCHAR2(255), 
+	"UPDATED" TIMESTAMP (6) WITH LOCAL TIME ZONE, 
+	"UPDATED_BY" VARCHAR2(255)
+   ) ;

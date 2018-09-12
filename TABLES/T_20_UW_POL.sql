@@ -1,0 +1,41 @@
+--------------------------------------------------------
+--  DDL for Table T_20_UW_POL
+--------------------------------------------------------
+
+  CREATE TABLE "T_20_UW_POL" 
+   (	"R_K" NUMBER, 
+	"POL_NO" VARCHAR2(128), 
+	"PRD_R_K" NUMBER, 
+	"PRD_TERM" NUMBER, 
+	"SI_AMT" NUMBER, 
+	"MNS_PYMT" NUMBER, 
+	"INSR_R_K" NUMBER, 
+	"PYMT_FEQ" NUMBER, 
+	"CUS_R_K" NUMBER, 
+	"PRM_AMT" NUMBER, 
+	"ST_DT" DATE, 
+	"EN_DT" DATE, 
+	"ANL_INC" NUMBER, 
+	"INC_PR" NUMBER, 
+	"ACTL_DBFT" NUMBER, 
+	"CRT_BY" VARCHAR2(52), 
+	"CRT_DT" TIMESTAMP (6), 
+	"UPD_BY" VARCHAR2(52), 
+	"UPD_DT" TIMESTAMP (6), 
+	"POL_STA" NUMBER DEFAULT 11, 
+	"BUS_DT" DATE, 
+	"APR_BY" VARCHAR2(52), 
+	"APR_DT" TIMESTAMP (6), 
+	"APR_STA" NUMBER, 
+	"MED_STA" NUMBER, 
+	"SYS_DTT" DATE, 
+	"PRM_PART" NUMBER, 
+	"PRM_WAH" NUMBER, 
+	"PRM_TAB" NUMBER, 
+	"LOC_R_K" NUMBER, 
+	"GRP_YN" NUMBER, 
+	"PRT_BY" NUMBER, 
+	"PRT_V" NUMBER, 
+	"PRT_RT" NUMBER, 
+	"END_CNT" NUMBER
+   ) ;
